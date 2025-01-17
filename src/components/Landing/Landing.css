@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+.landing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/dublin-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+
+    .texts {
+        max-width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding: 2rem 5rem;
+        color: #ffffff;
+        text-align: center;
+
+        h1, h2 {
+            font-family: "Cinzel", serif;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 2.7rem;
+            font-weight: 400;
+        }
+    }
+}

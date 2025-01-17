@@ -1,0 +1,18 @@
+.menu-summary {
+    padding-bottom: 5rem;
+    border-bottom: 1px solid #e1e1e1;
+
+    h2 {
+        font-size: 3rem;
+        color: var(--secondary-color);
+        margin-bottom: 5rem;
+    }
+
+    img {
+        height: 20rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+}
