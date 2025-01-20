@@ -1,0 +1,30 @@
+.gallery {
+    padding-bottom: 5rem;
+    border-bottom: 1px solid #e1e1e1;
+
+    h2 {
+        text-align: center;
+        color: var(--secondary-color);
+        font-size: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 3rem;
+
+        img {
+            width: 30rem;
+            height: auto;
+            object-fit: cover;
+            border-radius: 1rem;
+
+            @media (min-width: 1401px) {
+                width: 40rem;
+            }
+        }
+    }
+}

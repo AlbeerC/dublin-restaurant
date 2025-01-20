@@ -6,7 +6,7 @@ import Button from '../Button/Button'
 function AboutUs () {
 
     return (
-        <section className="about-us container">
+        <section className="about-us container" id='about'>
                 <div className="flex">
                     <div className="left">
                         <h3>Bienvenido a Dublín</h3>

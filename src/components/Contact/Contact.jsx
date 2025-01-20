@@ -24,8 +24,8 @@ export default function ContactSection() {
   }
 
   return (
-    <section className="bg-white contact container">
-      <div className="mx-auto px-4">
+    <section className="bg-white contact container" id='contact'>
+      <div>
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Contactanos</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
           <div>

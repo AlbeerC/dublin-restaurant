@@ -3,6 +3,7 @@ import AboutUs from '../AboutUs/AboutUs'
 import Services from '../Services/Services'
 import MenuSummary from '../MenuSummary/MenuSummary'
 import Contact from '../Contact/Contact'
+import Gallery from '../Gallery/Gallery'
 
 function Home () {
 
@@ -12,6 +13,7 @@ function Home () {
             <AboutUs />
             <Services />
             <MenuSummary />
+            <Gallery />
             <Contact />
         </main>
     )

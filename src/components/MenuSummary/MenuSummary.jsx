@@ -26,7 +26,7 @@ const featuredDishes = [
 export default function MenuSummary() {
   return (
     <section className="py-12 md:py-20 container menu-summary">
-      <div className="mx-auto px-4">
+      <div>
         <h2 className="text-3xl md:text-4xl text-center mb-8">Nuestros platos destacados</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {featuredDishes.map((dish, index) => (
