@@ -17,11 +17,19 @@
         background-color: #dcdcdc59;
         border-radius: 1rem;
 
+        @media (max-width: 480px) {
+            justify-content: center;
+        }
+
         .card {
             border-radius: 1rem;
             padding: 2rem;
             max-width: 23rem;
             text-align: center;
+
+            @media (max-width: 480px) {
+                max-width: 100%;
+            }
 
             svg {
                 padding: 1rem;
