@@ -2,7 +2,7 @@
     max-width: 40vw;
 
     @media (max-width: 992px) {
-        max-width: 70vw;
+        max-width: 90vw;
     }
 
     h2 {
