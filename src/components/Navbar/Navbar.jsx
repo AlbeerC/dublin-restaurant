@@ -22,14 +22,14 @@ function Navbar () {
             <nav className={showMenu ? 'show' : 'hide'}>
                 <ul>
                 <li><Link to='/'>Inicio</Link></li>
-                    <li><a href="#about">Nosotros</a></li>
-                    <li><a href="#gallery">Galería</a></li>
-                    <li><a href="#contact">Contacto</a></li>
-                    <li>Menú</li>
+                    <li><a href="/#about">Nosotros</a></li>
+                    <li><a href="/#gallery">Galería</a></li>
+                    <li><a href="/#contact">Contacto</a></li>
+                    <li><Link to='/menu'>Menú</Link></li>
                 </ul>
             </nav>
 
-            <Button>Reservar</Button>
+            <Link to='/reservas'><Button>Reservar</Button></Link>
         </header>
     )
 }

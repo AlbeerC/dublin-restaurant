@@ -48,7 +48,7 @@ export default function MenuSummary() {
         </div>
         <div className="text-center">
           <Button>
-            <Link href="/menu">See Full Menu</Link>
+            <Link to="/menu">Ver menú completo</Link>
           </Button>
         </div>
       </div>

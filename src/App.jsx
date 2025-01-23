@@ -4,7 +4,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 // Views
-import Home from './components/views/Home'
+import Home from './views/Home'
+import Reservations from './views/Reservations'
+import Menu from './views/Menu'
+import AdminPanelView from './views/AdminPanelView'
 
 function App() {
 
@@ -13,6 +16,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home /> } />
+        <Route path='/reservas' element={<Reservations /> } />
+        <Route path='/menu' element={<Menu /> } />
+        <Route path='/panel' element={<AdminPanelView /> } />
       </Routes>
       <Footer />
     </BrowserRouter>

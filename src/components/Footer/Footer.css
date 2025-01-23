@@ -6,4 +6,11 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin-top: 5rem;
+
+    @media (max-width: 768px) {
+        padding: 2rem;
+        font-size: 1.4rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
 }

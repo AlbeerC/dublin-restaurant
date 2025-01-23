@@ -1,0 +1,23 @@
+.reservations-form {
+    max-width: 40vw;
+
+    @media (max-width: 992px) {
+        max-width: 70vw;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    input {
+        padding: 1rem .5rem;
+    }
+
+    textarea {
+        padding: 2rem .5rem;
+    }
+
+    button {
+        font-size: 2rem;
+    }
+}
